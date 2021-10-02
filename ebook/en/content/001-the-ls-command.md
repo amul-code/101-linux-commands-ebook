@@ -37,8 +37,12 @@ In this interactive tutorial, you will learn the different ways to use the `ls` 
 |`-S`|<center>-</center>|Sort Results by file size|
 |`-t`|<center>-</center>|Sort Results by modifictaion time|
 |`-r`|`--reverse`|Show files and directories in reverse order *(descending Alphabetical order)*|
+|`-R`|`--all`|Option will list very long listing directory trees *(file names which begin with period `.`)*|
 |`-a`|`--all`|Show all files, Including hidden files *(file names which begin with period `.`)*|
 |`-A`|`--almost-all`|Shows all like `-a` but without Showing `.`(Current Working Directory) and `..` (Parent Directory)|
 |`-d`|`--directory`|Instead of listing the files and directores inside the directory, It Shows an information about the directory itself, Can be used with `-l` to show long formatted information|
 |`-F`|`--classify`|Appends an indictaor character to the end of each listed name, as an example: `/` character is appended after each directory name listed|
 |`-h`|`--human-readable`|like `-l` but displays file size in human-readable unit not in bytes|
+|`-i`|` `|With -i options list file/directory with an inode number.|
+|`-ltr`|` `|A combination of -ltr will show the latest modification file or directory date as last.|
+|`-lS`|` `|With a combination of -lS displays file size in order, will display big in size first.|
